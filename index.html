@@ -30,8 +30,55 @@
         </div>
     </header>
     <section id="Python">
-        <h1>Python</h1>
-        <p class="paragrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus blanditiis laborum! Molestiae quia sapiente voluptates tempora totam optio nam adipisci saepe, voluptas illo veritatis eligendi, aut ullam! Hic, impedit?</p>
+        <h1 class="Inicio-de-python">Python</h1>
+        <i class="devicon-python-plain"></i>
+        <p class="paragrafo1">A primeira linguagem de programação que eu aprendi foi <span style="color: blueviolet;">python</span>, onde eu resolvi entrar no mundo da programação para aprender mais tecnologias e se tornar um programador.</p>
+
+        <p class="paragrafo1">Abaixo tem os meus primeiros projetos de <span style="color: blueviolet;">python</span> que eu criei para adicionar no meu portfólio no <span style="color: blueviolet;">GitHub</span>.</p>
+
+
+        <div id="codigo-python">
+
+            <pre>
+    
+                <code>
+                        from datetime import date
+                        atual = date.today().year
+                        dado = dict()
+                        print(" ALUGUEL DE CARROS ")
+                        atual = date.today().year
+        
+                        dado['nome'] = str(input("Digite seu nome completo: ")).strip().title()
+                        nasc = int(input("Ano de nascimento: "))
+                        dado['idade'] = atual - nasc
+        
+                        dado['cpf'] = int(input("Digite seu CPF: "))
+                        dado['carro'] = str(input("Digite um modelo de carro: ")).strip().upper()
+                        dado['dias'] = int(input("Duração com o veiculo: "))
+                        dado['carteira'] = str(input("Tem CNH? [S/N] ")).strip().upper()
+                        while dado['carteira'] not in 'SsNn':
+                            dado['carteira'] = str(input("Por favor digite [S/N] se possui CNH: ")).strip().upper()
+        
+                        if dado["carteira"] in "Ss":
+                            valor = 20 * dado["dias"]
+                            print("\033[0;32mVocê pagará menos por ter CNH!\033[m")
+                        else:
+                            valor = 70 * dado["dias"]
+                            print("\033[0;31mVocê pagará ao dobro por conta de não ter CNH!\033[m")
+                        
+                        print("="*30)
+                        print("{:^30}".format("RELATORIO"))
+                        print(f"Nome: {dado['nome']}")
+                        print(f"Ano de nascimento: {nasc}")
+                        print(f"Idade: {dado['idade']}")
+                        print(f"CPF: {dado['cpf']}")
+                        print(f"Veiculo: {dado['carro']}")
+                        print(f"CNH: {dado['carteira']}")
+                        print(f"Duração será de {dado['dias']} dias")
+                        print(f"Valor R${valor}")
+                </code>
+            </pre>
+        </div>
     </section>
 </body>
 </html>
