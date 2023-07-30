@@ -108,20 +108,12 @@ body {
     margin-left: -200px;
 }
 
-.Carros-parte-1 {
-    margin-left: -50px;
-    margin-top: 5px;
-    width: 700px;
-    height: 500px;
-    display: none;
-}
-
-.Carros-parte-2 {
-    margin-bottom: -267px;
-    margin-left: -50px;
-    width: 700px;
-    height: 300px;
-    display: none;
+.Aluguel-de-carros {
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 50px;
+    margin-left: -200px;
 }
 
 
@@ -138,4 +130,8 @@ pre {
 
 code {
     font-size: 0.7em;
+}
+
+video {
+    margin-top: 40px;
 }
