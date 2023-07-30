@@ -80,3 +80,18 @@ header, h2 {
 body {
     background-color: black;
 }
+
+#Python {
+    color: white;
+}
+
+#Python, h1 {
+    margin-top: -120px;
+    margin-left: 210px;
+    font-size: 1.7em;
+    text-shadow: 5px 3px 1px rgb(9, 3, 56);
+}
+.paragrafo1 {
+    font-size: 1em;
+    margin-left: -200px;
+}
