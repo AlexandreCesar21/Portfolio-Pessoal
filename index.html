@@ -36,7 +36,7 @@
 
         <p class="paragrafo1">Abaixo tem os meus primeiros projetos de <span style="color: blueviolet;">Python</span> que eu criei para adicionar no meu portfólio no <span style="color: blueviolet;">GitHub</span>.</p>
 
-        <h1 class="Aluguel-de-carros" style="color: blueviolet;">Aluguel de carros</h1>
+        <h1 class="Titulo-do-projeto">Aluguel de carros</h1>
         <p class="paragrafo1">O primeiro projeto de <span style="color: blueviolet;">Python</span> que eu fiz, E relacionado <span style="color: blueviolet;">aluguel de carros</span>, onde voçê faz um cadastro do seus dados, E o código faz um relatorio sobre quanto voçê ira pagar. </p>
 
         <p class="paragrafo1">Abaixo tem o código do projeto!</p>
@@ -85,7 +85,71 @@
         <video width="640" height="360" controls>
             <source src="Vídeo/Python1.mp4" type="video/mp4">
         </video>
-        <h1></h1>
+        <h1 class="Titulo-do-projeto">Contagem Regressiva</h1>
+
+        <p class="paragrafo1">Neste projeto de <span style="color: blueviolet;">Python</span> que se chama <span style="color: blueviolet;">Contagem Regressiva</span>, Funciona basicamente voçê colocar quantos segundos quer que dure, E por aí o código vai contando até o fim.</p>
+        
+        <p class="paragrafo1">Abaixo tem o código do projeto!</p>
+        <div>
+            <pre>
+                <code>
+                    from time import sleep
+                    print(" CONTAGEM REGRESSIVA ")
+                    numero = int(input("Digite quantos segundos quer durar: "))
+                    for a in range(1, numero+1):
+                        print(a)
+                        sleep(1)
+                    print('FIM!')
+                </code>
+            </pre>
+        </div>
+        <br>
+        <br>
+        <p class="paragrafo1">Mostrando como funciona o código!</p>
+        <video width="640" height="360" controls>
+            <source src="Vídeo/Python2.mp4" type="video/mp4">
+        </video>
+        <h1 class="Titulo-do-projeto">Sorteio</h1>
+        <p class="paragrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto accusamus sed nihil amet placeat nesciunt, excepturi optio voluptate velit cumque tempore saepe, debitis architecto aliquam suscipit maiores molestiae fugit.</p>
+
+        <p class="paragrafo1">Abaixo tem o código do projeto!</p>
+
+        <div id="codigo-python">
+            <pre>
+                <code>
+                    ficha = []
+                    import random
+                    print("=" * 30)
+                    print("{:^30}".format(" SORTEIO "))
+                    print("=" * 30)
+                    while True:
+                        nome = str(input("Digite um participante: ")).upper()
+                        ficha.append(nome)
+                        resp = str(input("Quer continuar? [S/N]: "))
+                        while resp not in "SsNn":
+                            resp = str(input("\033[0;31mTente novamente. Quer continuar? [S/N]: \033[m"))
+                        if resp in "Nn":
+                            break
+                    print("=" * 30)
+                    print("{:^30}".format("LISTAGEM DE PARTICIPANTES"))
+                    print("=" * 30)
+                    print(f'{"ID"} {"JOGADOR":>20}')
+                    for i, a in enumerate(ficha):
+                        print("-" * 30)
+                        print(f"{i+1}º {a:>20}")
+                        print("-" * 30)
+                    aa = random.choice(ficha)
+                    print(f"O GANHADOR FOI {aa}")
+
+                </code>
+            </pre>
+        </div>
+        <div class="paragrafo2">
+            <p class="paragrafo1">Mostrando como funciona o código!</p>
+            <video width="640" height="360" controls>
+                <source src="Vídeo/Python3.mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
 </body>
 </html>

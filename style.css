@@ -108,7 +108,7 @@ body {
     margin-left: -200px;
 }
 
-.Aluguel-de-carros {
+.Titulo-do-projeto {
     text-align: center;
     justify-content: center;
     justify-self: center;
@@ -134,4 +134,8 @@ code {
 
 video {
     margin-top: 40px;
+}
+
+.paragrafo2 {
+    margin-top: -370px;
 }
