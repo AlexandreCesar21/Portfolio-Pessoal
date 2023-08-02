@@ -81,11 +81,9 @@ body {
     background-color: black;
 }
 
-#Python {
-    color: white;
-}
 
-#Python, h1 {
+#Python{
+    color: white;
     margin-top: -120px;
     margin-left: 210px;
     font-size: 1.8em;
@@ -138,4 +136,60 @@ video {
 
 .Video2 {
     margin-top: -370px;
+}
+
+#MySQL {
+    color: white;
+    text-shadow: 5px 3px 1px rgb(9, 3, 56);
+}
+
+#segudoicone {
+    font-size: 22em;
+    margin-left: 340px;
+    text-shadow: 5px 3px 1px rgb(9, 3, 56);
+}
+
+.paragrafoSQL {
+    margin-top: -40px;
+    margin-left: 10px;
+    font-size: 1.8em;
+}
+
+.paragrafoSQL1 {
+    margin-left: 10px;
+    font-size: 1.8em;
+}
+
+
+.Titulo-do-Mysql {
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 90px;
+    font-size: 3em;
+}
+
+
+#codigo-SQL {
+    font-size: 1.8em;
+    margin-left: 100px;
+}
+
+.Conhecimento-profissional {
+    margin-left: 220px;
+    margin-top: 1490px;
+    font-size: 2em;
+}
+
+#codigo-SQL1 {
+    font-size: 1.4em;
+    margin-left: 50px;
+
+}
+
+.Loja-de-calçados {
+    margin-left: 290px;
+    margin-top: 4330px;
+    font-size: 2em;
+    
 }
