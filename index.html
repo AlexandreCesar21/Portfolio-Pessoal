@@ -110,7 +110,7 @@
             <source src="Vídeo/Python2.mp4" type="video/mp4">
         </video>
         <h1 class="Titulo-do-projeto">Sorteio</h1>
-        <p class="paragrafo1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto accusamus sed nihil amet placeat nesciunt, excepturi optio voluptate velit cumque tempore saepe, debitis architecto aliquam suscipit maiores molestiae fugit.</p>
+        <p class="paragrafo1">Neste projeto que se chama <span style="color: blueviolet;">sorteio</span>, Voçê vai colocar os nomes dos participantes eo código vai sorteia quem vai ser o ganhador.</p>
 
         <p class="paragrafo1">Abaixo tem o código do projeto!</p>
 
@@ -144,12 +144,96 @@
                 </code>
             </pre>
         </div>
-        <div class="paragrafo2">
+        <div class="Video2">
             <p class="paragrafo1">Mostrando como funciona o código!</p>
             <video width="640" height="360" controls>
                 <source src="Vídeo/Python3.mp4" type="video/mp4">
             </video>
         </div>
+        <h1 class="Titulo-do-projeto">Tabuada</h1>
+        <p class="paragrafo1">O projeto <span style="color: blueviolet;">tabuada</span>, Mostrará os resultados do número que voçê digitou, Mas antes o usuário vai ter que digitar um número para escolher um sinal seja o mais, Menos, Multiplicação e divisão.</p>
+
+        <p class="paragrafo1">Abaixo tem o código do projeto!</p>
+        <div id="codigo-python">
+            <pre>
+                <code>
+                    print("=" * 30)
+                    print("{:^30}".format(" TABUADA "))
+                    print("=" * 30)
+                    while True:
+                            print("." * 30)
+                            escolhe = int(input("""Selecione um número para sinais
+                    [ 1 ] + Soma 
+                    [ 2 ] - Subtração
+                    [ 3 ] * Multiplicação
+                    [ 4 ] / Divisão
+                    [ 5 ] Fechar: """))
+                            if escolhe == 1:
+                                numero = int(input("Digite um número: "))
+                                for a in range(1, 11):
+                                    print(f"{a} + {numero} = {a + numero}")
+                            if escolhe == 2:
+                                numero = int(input("Digite um número: "))
+                                for a in range(1, 11):
+                                    print(f"{a} - {numero} = {a - numero}")
+                            if escolhe == 3:
+                                numero = int(input("Digite um número: "))
+                                for a in range(1, 11):
+                                    print(f"{a} * {numero} = {a * numero}")
+                            if escolhe == 4:
+                                numero = int(input("Digite um número: "))
+                                for a in range(1, 11):
+                                    print(f"{a} / {numero} = {a / numero:^.1f}")
+                            if escolhe == 5:
+                                break
+                    print("="*30)    
+                    print("{:^30}".format("OBRIGADO VOLTE SEMPRE!"))
+                    print("="*30)
+                </code>
+            </pre>
+        </div>
+            <p class="paragrafo1">Mostrando como funciona o código!</p>
+            <video width="640" height="360" controls>
+                <source src="Vídeo/Python4.mp4" type="video/mp4">
+            </video>
+            <h1 class="Titulo-do-projeto">Parcelamento</h1>
+
+            <p class="paragrafo1">Neste projeto de <span style="color: blueviolet;">parcelamento</span>, O usuário vai colocar o preço do produto e vai dividir quantas vezes ele quiser ou seja 1, 2 ou mais.</p>
+
+            <div id="codigo-python">
+                <pre>
+                    <code>
+                        while True:
+                        preco = float(input("Digite o preço: R$"))
+                        dividir = int(input("""Selecione um número para dividir
+                    [ 1 ] Dividir 2x
+                    [ 2 ] Dividir 3x                   
+                    [ 3 ] Dividir mais: """))
+                        if dividir == 1:
+                            s = preco / 2
+                            print(f"Você pagara R${s} em 2x no cartão. ")
+                            break
+                        if dividir == 2:
+                            s = preco / 3
+                            print(f"Você pagará R${s:^.2f} em 3x no cartão.")
+                            break
+                        if dividir == 3:
+                            numero = int(input("Quanto você quer dividir: "))
+                            s = preco / numero
+                            print(f"Você pagará R${s:^.2f} em {numero}x no cartão.")
+                            break
+                    print("="*30)    
+                    print("{:^30}".format("OBRIGADO VOLTE SEMPRE!"))
+                    print("="*30)                    
+                    </code>
+                </pre>
+            </div>
+            <div class="Video2">
+                <p class="paragrafo1">Mostrando como funciona o código!</p>
+                <video width="640" height="360" controls>
+                    <source src="Vídeo/Python5.mp4" type="video/mp4">
+                </video>
+            </div>
     </section>
 </body>
 </html>
