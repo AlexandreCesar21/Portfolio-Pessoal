@@ -263,3 +263,56 @@ video {
     font-size: 3em;
     margin-top: -120px;
 }
+
+#html11 {
+    color: white;
+    text-decoration: none;
+}
+
+#css11 {
+    color: white;
+    text-decoration: none;
+}
+
+#javascript11 {
+    color: white;
+    text-decoration: none;
+}
+
+#python11 {
+    color: white;
+    text-decoration: none;
+}
+
+#myslq11 {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    color: white;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+#data {
+    margin: 1px;
+    margin-bottom: -30px;
+}
+
+#inst {
+    color: white;
+}
+
+#git {
+    color: white;
+}
+
+#linkdin {
+    color: white;
+}
