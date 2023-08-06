@@ -317,6 +317,10 @@ footer {
     color: white;
 }
 
+#df-tela {
+    margin-left: 135px;
+}
+
 @media (min-width: 11in) and (max-width: 13in) {
     h2 {
         margin-left: 40px;
@@ -453,10 +457,79 @@ footer {
     }
 
     .Inicio-de-python {
-        margin-left: 300px;
+        margin-left: 350px;
     }
 
     .devicon-python-plain {
-        margin-left: 370px;
+        margin-left: 430px;
     }
+
+    video {
+        margin-top: 40px;
+        margin-left: 135px;
+    }
+    
+    .Video2 {
+        margin-top: -370px;
+    }
+
+    .paragrafolink {
+        margin-left: 180px;
+    }
+
+    #df-tela {
+        margin-left: 260px;
+    }
+
+    .Titulo-do-Mysql {
+        margin-left: 50px;
+    }
+
+    #segudoicone {
+        padding-left: 170px;
+    }
+
+    .Conhecimento-profissional {
+        margin-left: 380px;
+    }
+
+    .Loja-de-calçados {
+        margin-left: 450px;
+    }
+
+    .dif-sql {
+        padding-bottom: 90px;
+    }
+
+    #html {
+        padding: 10px;
+        margin-bottom: -170px;
+        margin-left: 530px;
+        
+    }
+
+    #css {
+        margin-top: 35px;
+        margin-left: 680px;
+        margin-bottom: 135px;
+        
+    }
+
+    .linkfoweb {
+        padding-left: 140px;
+    }
+
+
+    #html1 {
+        margin-left: 400px;
+    }
+
+    #css1 {
+        margin-left: 640px;
+    }
+
+    #js1 {
+        margin-left: 900px;
+    }
+
 }
