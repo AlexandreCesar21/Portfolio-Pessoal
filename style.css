@@ -317,18 +317,17 @@ footer {
     color: white;
 }
 
-@media  (min-width: 14in) and (max-width: 15in) {
+@media (min-width: 11in) and (max-width: 13in) {
     h2 {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
-
     .esquerda, p {
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: left;
         justify-content: left;
         justify-self: left;
-        margin-left: -10px;
+        margin-left: -20px;
         margin-top: 32px;
     }
     
@@ -376,10 +375,88 @@ footer {
         justify-self: right;
         height: 400px;
         margin-top: -180px;
+        margin-left: 100px;
+    }
+
+    .Inicio-de-python {
+        margin-left: 300px;
+    }
+
+    .devicon-python-plain {
+        margin-left: 370px;
+    }
+}
+
+
+
+@media  (min-width: 14in) and (max-width: 15in) {
+    h2 {
+        margin-left: 60px;
+    }
+
+
+    .esquerda, p {
+        font-size: 1.3em;
+        text-align: left;
+        justify-content: left;
+        justify-self: left;
+        margin-left: -10px;
+        margin-top: 32px;
+    }
+    
+    #icons {
+        text-align: left;
+        justify-content: left;
+        justify-self: left;
+        margin-top: 25px;
+        margin-left: 200px;
+        font-size: 2.8em;
+    }
+    
+    #icons, .devicon-html5-plain-wordmark {
+        
+        font-size: 2.5em;
+    }
+    
+    #icons, .devicon-css3-plain-wordmark {
+        
+        font-size: 2.5em;
+    }
+    
+    #icons, .devicon-javascript-plain {
+        font-size: 2.3em;
+    }
+    
+    #icons-back {
+        text-align: left;
+        justify-content: left;
+        justify-self: left;
+        margin-top: 25px;
+        margin-left: 260px;
+    }
+    
+    .devicon-python-plain-wordmark {
+        font-size: 6em;
+    }
+    
+    .devicon-mysql-plain-wordmark {
+        font-size: 6em;
+    }
+
+    .direita, img {
+        text-align: right;
+        justify-content: right;
+        justify-self: right;
+        height: 400px;
+        margin-top: -180px;
         margin-right: 30px;
     }
 
     .Inicio-de-python {
-        margin-right: -180px;
+        margin-left: 300px;
+    }
+
+    .devicon-python-plain {
+        margin-left: 370px;
     }
 }
