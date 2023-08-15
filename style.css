@@ -527,9 +527,43 @@ footer {
     #css1 {
         margin-left: 640px;
     }
-
+    
     #js1 {
         margin-left: 900px;
     }
 
+}
+
+
+@media (max-width: 600px) {
+    
+    header {
+        background: linear-gradient(rgba(0,0,0, 0.34), rgba(0, 0, 0, 0.78));
+    }
+    
+    header h2 {
+        text-align: left;
+        margin-bottom: 90px;
+        font-size: 2rem;
+    }
+
+    .esquerda p {
+        display: none;
+    }
+
+    .direita, img {
+        text-align: right;
+        height: 300px;
+        margin-top: 16px; /* Ajuste esse valor conforme necessário */
+        margin-right: 50px;
+    }
+
+    #icons {
+        display: none;
+    }
+
+    #icons-back {
+        display: none;
+    }
+    
 }
