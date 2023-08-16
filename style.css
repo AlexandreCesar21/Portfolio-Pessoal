@@ -321,9 +321,17 @@ footer {
     margin-left: 135px;
 }
 
+.nomepeq {
+    display: none;
+}
+
 @media (min-width: 11in) and (max-width: 13in) {
     h2 {
         margin-left: 40px;
+    }
+
+    .nomepeq {
+        display: none;
     }
 
     .esquerda, p {
@@ -398,6 +406,9 @@ footer {
         margin-left: 60px;
     }
 
+    .nomepeq {
+        display: none;
+    }
 
     .esquerda, p {
         font-size: 1.3em;
@@ -542,9 +553,14 @@ footer {
     }
     
     header h2 {
-        text-align: left;
+        display: none;
+    }
+
+    .nomepeq {
+        text-align: center;
         margin-bottom: 90px;
         font-size: 2rem;
+        display: block;
     }
 
     .esquerda p {
