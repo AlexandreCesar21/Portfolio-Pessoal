@@ -325,12 +325,20 @@ footer {
     display: none;
 }
 
+.sobreno {
+    display: none;
+}
+
 @media (min-width: 11in) and (max-width: 13in) {
     h2 {
         margin-left: 40px;
     }
 
     .nomepeq {
+        display: none;
+    }
+
+    .sobreno {
         display: none;
     }
 
@@ -407,6 +415,10 @@ footer {
     }
 
     .nomepeq {
+        display: none;
+    }
+
+    .sobreno {
         display: none;
     }
 
@@ -559,8 +571,16 @@ footer {
     .nomepeq {
         text-align: center;
         margin-bottom: 90px;
-        font-size: 1.6em;
+        margin-left: 50px;
+        font-size: 2em;
         display: block;
+    }
+
+    .sobreno {
+        display: block;
+        margin-top: -90px;
+        margin-left: 90px;
+        font-size: 2em;
     }
 
     .esquerda p {
