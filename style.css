@@ -635,5 +635,9 @@ footer {
         height: 301px;
         margin-left: -201px;    
     }
+
+    .paragrafolink {
+        margin-left: -181px; 
+    }
     
 }
