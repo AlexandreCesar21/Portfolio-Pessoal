@@ -592,6 +592,7 @@ footer {
         height: 300px;
         margin-top: 5px; /* Ajuste esse valor conforme necessário */
         margin-right: 50px;
+        padding-bottom: 90px;
     }
 
     #icons {
@@ -604,6 +605,18 @@ footer {
         display: block;
         margin-right: -390px;
         margin-left: 20px;
+    }
+
+    .Inicio-de-python {
+        margin-bottom: -70px;
+        margin-left: -160px;
+        padding-bottom: 90px;
+    }
+
+
+    .devicon-python-plain {
+        margin-bottom: 30px;
+        margin-left: -100px;
     }
     
 }
