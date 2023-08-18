@@ -640,4 +640,97 @@ footer {
         margin-left: -181px; 
     }
     
+
+    .aluguel {
+        margin-left: -187px;
+        font-size: 1.6rem;
+    }
+
+    .Video2 {
+        margin-top: -758px;
+    }
+
+    .video3 {
+        margin-top: -758px;
+    }
+
+    .tela3 {
+        margin-top: -283px
+    }
+
+    #df-tela {
+        margin-left: -200px;
+    }
+
+    #links1 {
+        margin-left: -191px;
+    }
+    .paragrafo3 {
+        display: none;
+    }
+
+
+
+    #segudoicone {
+        margin-left: 8px;
+        font-size: 17em;
+    }
+
+    #codigo-SQL {
+        margin-left: -9px;
+        font-size: 1.8em;
+    }
+
+    .Conhecimento-profissional {
+        margin-left: 3px;
+        font-size: 1.7em
+    }
+
+    .Loja-de-calçados {
+        margin-left: 15px;
+        font-size: 2.7em;
+    }
+
+    #html {
+        margin-left: 10px;
+    }
+
+    #css {
+        margin-left: 120px;
+    }
+
+    .linkfoweb {
+        margin-left: 40px;
+    }
+
+
+    #hcj {
+        margin-top: 45px;
+    }
+
+    #html1 {
+        margin-left: -4px;
+        font-size: 3em;
+        margin-top: 10px;
+        padding-left: 3px;
+        
+    }
+
+    #css1 {
+        margin-left: 123px;
+        font-size: 3em;
+        margin-top: -120px;
+        
+    }
+
+    #js1 {
+        margin-left: 70px;
+        margin-top: 40px;
+        font-size: 3em;
+    }
+
+    footer {
+        display: none;
+    }
+
 }
